@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.131" errors="0" skipped="0" tests="1" name="name.marmar.gf.greplog.examplecmd.logparser.LogStreamIteratorTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="23.21-b01"/>
+    <property name="user.country.format" value="CZ"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/martinmares/Documents/projects/javaone2014/gf-greplog-command"/>
+    <property name="java.runtime.version" value="1.7.0_21-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/martinmares/Documents/projects/javaone2014/gf-greplog-command"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/m8/s6_zs63d1pzby3bry6r27jgw0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/martinmares/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="surefire.test.class.path" value="/Users/martinmares/Documents/projects/javaone2014/gf-greplog-command/target/test-classes:/Users/martinmares/Documents/projects/javaone2014/gf-greplog-command/target/classes:/Users/martinmares/.m2/repository/org/glassfish/hk2/hk2/2.3.0/hk2-2.3.0.jar:/Users/martinmares/.m2/repository/org/glassfish/hk2/hk2-utils/2.3.0/hk2-utils-2.3.0.jar:/Users/martinmares/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/martinmares/.m2/repository/org/glassfish/hk2/hk2-api/2.3.0/hk2-api-2.3.0.jar:/Users/martinmares/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.3.0/aopalliance-repackaged-2.3.0.jar:/Users/martinmares/.m2/repository/org/glassfish/hk2/config-types/2.3.0/config-types-2.3.0.jar:/Users/martinmares/.m2/repository/org/glassfish/hk2/core/2.3.0/core-2.3.0.jar:/Users/martinmares/.m2/repository/org/glassfish/hk2/hk2-config/2.3.0/hk2-config-2.3.0.jar:/Users/martinmares/.m2/repository/org/jvnet/tiger-types/1.4/tiger-types-1.4.jar:/Users/martinmares/.m2/repository/org/glassfish/hk2/external/bean-validator/2.3.0/bean-validator-2.3.0.jar:/Users/martinmares/.m2/repository/org/glassfish/hk2/hk2-locator/2.3.0/hk2-locator-2.3.0.jar:/Users/martinmares/.m2/repository/org/glassfish/hk2/external/javax.inject/2.3.0/javax.inject-2.3.0.jar:/Users/martinmares/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/martinmares/.m2/repository/org/glassfish/hk2/hk2-runlevel/2.3.0/hk2-runlevel-2.3.0.jar:/Users/martinmares/.m2/repository/org/glassfish/hk2/class-model/2.3.0/class-model-2.3.0.jar:/Users/martinmares/.m2/repository/org/glassfish/hk2/external/asm-all-repackaged/2.3.0/asm-all-repackaged-2.3.0.jar:/Users/martinmares/.m2/repository/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2.jar:/Users/martinmares/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/martinmares/.m2/repository/org/glassfish/main/admin/admin-util/4.1/admin-util-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/main/common/common-util/4.1/common-util-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/main/common/internal-api/4.1/internal-api-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/main/security/security-services/4.1/security-services-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/main/security/security/4.1/security-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/main/security/ssl-impl/4.1/ssl-impl-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/main/deployment/deployment-common/4.1/deployment-common-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/external/asm-all/3.3/asm-all-3.3.jar:/Users/martinmares/.m2/repository/org/glassfish/main/external/ldapbp-repackaged/4.1/ldapbp-repackaged-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/gmbal/gmbal/4.0.0-b001/gmbal-4.0.0-b001.jar:/Users/martinmares/.m2/repository/org/glassfish/pfl/pfl-basic/4.0.0-b004/pfl-basic-4.0.0-b004.jar:/Users/martinmares/.m2/repository/org/glassfish/pfl/pfl-tf/4.0.0-b004/pfl-tf-4.0.0-b004.jar:/Users/martinmares/.m2/repository/org/glassfish/pfl/pfl-asm/4.0.0-b004/pfl-asm-4.0.0-b004.jar:/Users/martinmares/.m2/repository/org/glassfish/pfl/pfl-dynamic/4.0.0-b004/pfl-dynamic-4.0.0-b004.jar:/Users/martinmares/.m2/repository/org/glassfish/pfl/pfl-basic-tools/4.0.0-b004/pfl-basic-tools-4.0.0-b004.jar:/Users/martinmares/.m2/repository/org/glassfish/pfl/pfl-tf-tools/4.0.0-b004/pfl-tf-tools-4.0.0-b004.jar:/Users/martinmares/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.3.2/jackson-jaxrs-base-2.3.2.jar:/Users/martinmares/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2.jar:/Users/martinmares/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2.jar:/Users/martinmares/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.3.2/jackson-annotations-2.3.2.jar:/Users/martinmares/.m2/repository/org/glassfish/main/admin/config-api/4.1/config-api-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/main/common/glassfish-api/4.1/glassfish-api-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/main/common/scattered-archive-api/4.1/scattered-archive-api-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/main/grizzly/nucleus-grizzly-all/4.1/nucleus-grizzly-all-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/grizzly/grizzly-framework/2.3.15-gfa/grizzly-framework-2.3.15-gfa.jar:/Users/martinmares/.m2/repository/org/glassfish/grizzly/grizzly-portunif/2.3.15-gfa/grizzly-portunif-2.3.15-gfa.jar:/Users/martinmares/.m2/repository/org/glassfish/grizzly/grizzly-http/2.3.15-gfa/grizzly-http-2.3.15-gfa.jar:/Users/martinmares/.m2/repository/org/glassfish/grizzly/grizzly-http-server/2.3.15-gfa/grizzly-http-server-2.3.15-gfa.jar:/Users/martinmares/.m2/repository/org/glassfish/main/grizzly/grizzly-config/4.1/grizzly-config-4.1.jar:/Users/martinmares/.m2/repository/org/glassfish/external/management-api/3.2.1-b002/management-api-3.2.1-b002.jar:/Users/martinmares/.m2/repository/com/google/guava/guava/13.0.1/guava-13.0.1.jar:/Users/martinmares/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar:/Users/martinmares/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/martinmares/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/../lib/tools.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.8.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/martinmares"/>
+    <property name="user.timezone" value="Europe/Prague"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="martinmares"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="cs"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_21"/>
+    <property name="java.ext.dirs" value="/Users/martinmares/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="localRepository" value="/Users/martinmares/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.125" classname="name.marmar.gf.greplog.examplecmd.logparser.LogStreamIteratorTest" name="testLogFileRead"/>
+</testsuite>

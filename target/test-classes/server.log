@@ -1,0 +1,571 @@
+[2014-09-10T17:50:44.230+0200] [] [INFO] [NCLS-GFLAUNCHER-00005] [javax.enterprise.launcher] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1410364244230] [levelValue: 800] [[
+  JVM invocation command line:
+/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/bin/java
+-cp
+/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/modules/glassfish.jar
+-XX:+UnlockDiagnosticVMOptions
+-XX:MaxPermSize=192m
+-XX:NewRatio=2
+-Xmx512m
+-client
+-javaagent:/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/lib/monitor/flashlight-agent.jar
+-Dfelix.fileinstall.disableConfigSave=false
+-Djavax.net.ssl.keyStore=/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/domains/domain1/config/keystore.jks
+-Djava.awt.headless=true
+-Dcom.ctc.wstx.returnNullForDefaultNamespace=true
+-Dfelix.fileinstall.poll=5000
+-Djava.endorsed.dirs=/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/modules/endorsed:/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/lib/endorsed
+-Dfelix.fileinstall.bundles.startTransient=true
+-Djavax.net.ssl.trustStore=/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/domains/domain1/config/cacerts.jks
+-Djavax.xml.accessExternalSchema=all
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.security.auth.login.config=/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/domains/domain1/config/login.conf
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Dgosh.args=--nointeractive
+-Dosgi.shell.telnet.maxconn=1
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Dfelix.fileinstall.dir=/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/modules/autostart/
+-Dosgi.shell.telnet.port=6666
+-Djava.security.policy=/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/domains/domain1/config/server.policy
+-Dfelix.fileinstall.log.level=2
+-Dcom.sun.aas.instanceRoot=/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/domains/domain1
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-Dosgi.shell.telnet.ip=127.0.0.1
+-Dcom.sun.aas.installRoot=/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish
+-Djava.ext.dirs=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/lib/ext:/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/jre/lib/ext:/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/domains/domain1/lib/ext
+-Dfelix.fileinstall.bundles.new.start=true
+-Dorg.glassfish.additionalOSGiBundlesToStart=org.apache.felix.shell,org.apache.felix.gogo.runtime,org.apache.felix.gogo.shell,org.apache.felix.gogo.command,org.apache.felix.shell.remote,org.apache.felix.fileinstall
+-Djdk.corba.allowOutputStreamSubclass=true
+-Djava.library.path=/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/lib:/Users/martinmares/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:/Users/martinmares
+com.sun.enterprise.glassfish.bootstrap.ASMain
+-domainname
+domain1
+-asadmin-args
+--host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--echo=false,,,--interactive=true,,,start-domain,,,--verbose=false,,,--watchdog=false,,,--debug=false,,,--domaindir,,,/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/domains,,,domain1
+-instancename
+server
+-verbose
+false
+-debug
+false
+-asadmin-classpath
+/Users/martinmares/gf/glassfish/lib/client/appserver-cli.jar
+-asadmin-classname
+com.sun.enterprise.admin.cli.AdminMain
+-upgrade
+false
+-type
+DAS
+-domaindir
+/Users/martinmares/Documents/projects/glassfish/trunk/all/main/appserver/distributions/glassfish/target/stage/glassfish4/glassfish/domains/domain1
+-read-stdin
+true]]
+
+[2014-09-10T17:50:47.124+0200] [glassfish 4.1] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1410364247055] [timeMillis: 1410364247124] [levelValue: 800] [[
+  Running GlassFish Version: GlassFish Server Open Source Edition  4.1  (build martinmares-private)]]
+
+[2014-09-10T17:50:47.126+0200] [glassfish 4.1] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1410364247055] [timeMillis: 1410364247126] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2014-09-10T17:50:47.258+0200] [glassfish 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1410364247062] [timeMillis: 1410364247258] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2014-09-10T17:50:47.259+0200] [glassfish 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1410364247062] [timeMillis: 1410364247259] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2014-09-10T17:50:47.264+0200] [glassfish 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1410364247062] [timeMillis: 1410364247264] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2014-09-10T17:50:47.353+0200] [glassfish 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364247353] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2014-09-10T17:50:47.468+0200] [glassfish 4.1] [INFO] [SEC-SVCS-00100] [javax.enterprise.security.services] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1410364247055] [timeMillis: 1410364247468] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2014-09-10T17:50:47.668+0200] [glassfish 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1410364247061] [timeMillis: 1410364247668] [levelValue: 800] [[
+  Grizzly Framework 2.3.15 started in: 23ms - bound to [/0.0.0.0:8080]]]
+
+[2014-09-10T17:50:47.699+0200] [glassfish 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1410364247061] [timeMillis: 1410364247699] [levelValue: 800] [[
+  Grizzly Framework 2.3.15 started in: 2ms - bound to [/0.0.0.0:8181]]]
+
+[2014-09-10T17:50:47.708+0200] [glassfish 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1410364247061] [timeMillis: 1410364247708] [levelValue: 800] [[
+  Grizzly Framework 2.3.15 started in: 1ms - bound to [/0.0.0.0:4848]]]
+
+[2014-09-10T17:50:47.763+0200] [glassfish 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1410364247062] [timeMillis: 1410364247763] [levelValue: 800] [[
+  Grizzly Framework 2.3.15 started in: 1ms - bound to [/0.0.0.0:3700]]]
+
+[2014-09-10T17:50:47.846+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364247846] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2014-09-10T17:50:48.096+0200] [glassfish 4.1] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248096] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2014-09-10T17:50:48.097+0200] [glassfish 4.1] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248097] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2014-09-10T17:50:48.101+0200] [glassfish 4.1] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248101] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2014-09-10T17:50:48.123+0200] [glassfish 4.1] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248123] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2014-09-10T17:50:48.341+0200] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248341] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2014-09-10T17:50:48.352+0200] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248352] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2014-09-10T17:50:48.358+0200] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248358] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2014-09-10T17:50:48.384+0200] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248384] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2014-09-10T17:50:48.387+0200] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248387] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2014-09-10T17:50:48.626+0200] [glassfish 4.1] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248626] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2014-09-10T17:50:48.627+0200] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248627] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2014-09-10T17:50:48.940+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248940] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2014-09-10T17:50:48.980+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364248980] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2014-09-10T17:50:49.167+0200] [glassfish 4.1] [FINEST] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364249167] [levelValue: 300] [CLASSNAME: name.marmar.javaone.LogOnStartupListener] [METHODNAME: contextInitialized] [[
+  Starting (finest)]]
+
+[2014-09-10T17:50:49.168+0200] [glassfish 4.1] [FINER] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364249168] [levelValue: 400] [CLASSNAME: name.marmar.javaone.LogOnStartupListener] [METHODNAME: contextInitialized] [[
+  Starting (finer)]]
+
+[2014-09-10T17:50:49.168+0200] [glassfish 4.1] [FINE] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364249168] [levelValue: 500] [CLASSNAME: name.marmar.javaone.LogOnStartupListener] [METHODNAME: contextInitialized] [[
+  Starting (fine)]]
+
+[2014-09-10T17:50:49.168+0200] [glassfish 4.1] [CONFIG] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364249168] [levelValue: 700] [[
+  Starting (config)]]
+
+[2014-09-10T17:50:49.169+0200] [glassfish 4.1] [INFO] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364249169] [levelValue: 800] [[
+  Starting (info)]]
+
+[2014-09-10T17:50:49.169+0200] [glassfish 4.1] [WARNING] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364249169] [levelValue: 900] [[
+  Starting (warning)]]
+
+[2014-09-10T17:50:49.169+0200] [glassfish 4.1] [SEVERE] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364249169] [levelValue: 1000] [[
+  Starting (severe)]]
+
+[2014-09-10T17:50:49.170+0200] [glassfish 4.1] [INFO] [] [] [tid: _ThreadID=14 _ThreadName=Thread-8] [timeMillis: 1410364249170] [levelValue: 800] [[
+  Starting (stdout)]]
+
+[2014-09-10T17:50:49.174+0200] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364249174] [levelValue: 800] [[
+  Loading application [log] at [/log-web-1.0-SNAPSHOT]]]
+
+[2014-09-10T17:50:49.175+0200] [glassfish 4.1] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1410364247054] [timeMillis: 1410364249175] [levelValue: 800] [[
+  Loading application log done in 1 724 ms]]
+
+[2014-09-10T17:50:49.176+0200] [glassfish 4.1] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1410364249176] [levelValue: 800] [[
+  GlassFish Server Open Source Edition  4.1  (martinmares-private) startup time : Felix (2 607ms), startup services(2 127ms), total(4 734ms)]]
+
+[2014-09-10T17:50:49.230+0200] [glassfish 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1410364247062] [timeMillis: 1410364249230] [levelValue: 800] [[
+  Grizzly Framework 2.3.15 started in: 1ms - bound to [/0.0.0.0:7677]]]
+
+[2014-09-10T17:50:49.667+0200] [glassfish 4.1] [SEVERE] [badproxy] [com.sun.pkg.client.SystemInfo] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1410364247061] [timeMillis: 1410364249667] [levelValue: 1000] [[
+  badproxy]]
+
+[2014-09-10T17:50:49.670+0200] [glassfish 4.1] [SEVERE] [] [] [tid: _ThreadID=16 _ThreadName=Thread-9] [timeMillis: 1410364249670] [levelValue: 1000] [[
+  java.net.MalformedURLException: Unknown protocol: emea-proxy.uk.oracle.com
+	at java.net.URL.<init>(URL.java:619)
+	at java.net.URL.<init>(URL.java:482)
+	at java.net.URL.<init>(URL.java:431)
+	at com.sun.pkg.client.SystemInfo.loadProxyInfo(SystemInfo.java:201)
+	at com.sun.pkg.client.SystemInfo.getProxySelector(SystemInfo.java:168)
+	at com.sun.pkg.client.Image.<init>(Image.java:1007)
+	at com.sun.pkg.client.Image.<init>(Image.java:1026)
+	at com.sun.enterprise.registration.glassfish.RegistrationUtil.getUpdateCenterImage(RegistrationUtil.java:190)
+	at com.sun.enterprise.registration.glassfish.RegistrationUtil.setUpdateCenterUUID(RegistrationUtil.java:197)
+	at com.sun.enterprise.registration.glassfish.RegistrationUtil.synchUUID(RegistrationUtil.java:184)
+	at com.sun.enterprise.registration.glassfish.PingService.postConstruct(PingService.java:100)
+	at org.jvnet.hk2.internal.ClazzCreator.postConstructMe(ClazzCreator.java:329)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:377)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:461)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.findOrCreate(AsyncRunLevelContext.java:227)
+	at org.glassfish.hk2.runlevel.RunLevelContext.findOrCreate(RunLevelContext.java:84)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2258)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:105)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:87)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.oneJob(CurrentTaskFuture.java:1162)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.run(CurrentTaskFuture.java:1147)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$UpOneLevel.run(CurrentTaskFuture.java:753)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.IllegalStateException: Unknown protocol: emea-proxy.uk.oracle.com
+	at org.apache.felix.framework.URLHandlersStreamHandlerProxy.parseURL(URLHandlersStreamHandlerProxy.java:372)
+	at java.net.URL.<init>(URL.java:614)
+	... 24 more]]
+
+[2014-09-10T17:50:49.910+0200] [glassfish 4.1] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=60 _ThreadName=Thread-15] [timeMillis: 1410364249910] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://dhcp-prague08-third-floor-10-163-26-60.cz.oracle.com:8686/jndi/rmi://dhcp-prague08-third-floor-10-163-26-60.cz.oracle.com:8686/jmxrmi]]
+
+[2014-09-10T17:50:51.039+0200] [glassfish 4.1] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1410364251039] [levelValue: 800] [[
+  HV000001: Hibernate Validator 5.0.0.Final]]
+
+[2014-09-10T17:50:51.803+0200] [glassfish 4.1] [INFO] [] [org.glassfish.jersey.server.ApplicationHandler] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1410364251803] [levelValue: 800] [[
+  Initiating Jersey application, version Jersey: 2.10.4 2014-08-08 15:09:00...]]
+
+[2014-09-10T17:50:52.454+0200] [glassfish 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1410364252454] [levelValue: 800] [[
+  Listening to REST requests at context: /management/domain.]]
+
+[2014-09-10T17:50:52.668+0200] [glassfish 4.1] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1410364252668] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@520ebd99 as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@22e45749.]]
+
+[2014-09-10T17:50:53.313+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=80 _ThreadName=Thread-17] [timeMillis: 1410364253313] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2014-09-10T17:50:53.829+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=80 _ThreadName=Thread-17] [timeMillis: 1410364253829] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2014-09-10T17:50:53.843+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=80 _ThreadName=Thread-17] [timeMillis: 1410364253843] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2014-09-10T17:50:53.845+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=80 _ThreadName=Thread-17] [timeMillis: 1410364253845] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2014-09-10T17:50:55.090+0200] [glassfish 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=80 _ThreadName=Thread-17] [timeMillis: 1410364255090] [levelValue: 800] [[
+  Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '']]
+
+[2014-09-10T17:50:56.208+0200] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=80 _ThreadName=Thread-17] [timeMillis: 1410364256208] [levelValue: 800] [[
+  Loading application [__admingui] at [/]]]
+
+[2014-09-10T17:50:56.209+0200] [glassfish 4.1] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=80 _ThreadName=Thread-17] [timeMillis: 1410364256209] [levelValue: 800] [[
+  Loading application __admingui done in 3 541 ms]]
+
+[2014-09-10T17:56:23.960+0200] [glassfish 4.1] [INFO] [] [org.glassfish.jersey.server.ApplicationHandler] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1410364583960] [levelValue: 800] [[
+  Initiating Jersey application, version Jersey: 2.10.4 2014-08-08 15:09:00...]]
+
+[2014-09-10T17:56:24.029+0200] [glassfish 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1410364584029] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2014-09-10T17:56:24.265+0200] [glassfish 4.1] [INFO] [gms.join] [ShoalLogger] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584265] [levelValue: 800] [[
+  GMS1095: member: server is joining group: c1 ...]]
+
+[2014-09-10T17:56:24.288+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584288] [levelValue: 700] [[
+  instantiated following NetworkManager implementation:com.sun.enterprise.mgmt.transport.grizzly.grizzly2.GrizzlyNetworkManager2]]
+
+[2014-09-10T17:56:24.290+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584290] [levelValue: 700] [[
+  GMS MAX_MESSAGE_LENGTH=4 196 352]]
+
+[2014-09-10T17:56:24.291+0200] [glassfish 4.1] [INFO] [] [] [tid: _ThreadID=108 _ThreadName=Thread-8] [timeMillis: 1410364584291] [levelValue: 800] [[
+  Grizzly 2.0 NetworkManager]]
+
+[2014-09-10T17:56:24.295+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584295] [levelValue: 700] [[
+  
+GrizzlyNetworkManager2 Configuration
+BIND_INTERFACE_ADDRESS:null  NetworkInterfaceName:null
+TCPSTARTPORT..TCPENDPORT:9090..9200
+MULTICAST_ADDRESS:MULTICAST_PORT:228.9.162.33:21842 MULTICAST_PACKET_SIZE:65536 MULTICAST_TIME_TO_LIVE: default
+FAILURE_DETECT_TCP_RETRANSMIT_TIMEOUT(ms):10000
+ MAX_PARALLEL:15
+START_TIMEOUT(ms):15000 WRITE_TIMEOUT(ms):10000
+MAX_WRITE_SELECTOR_POOL_SIZE:30
+]]
+
+[2014-09-10T17:56:24.302+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584302] [levelValue: 700] [[
+  Grizzly controller listening on /0:0:0:0:0:0:0:0:9186. Transport started in 3 ms]]
+
+[2014-09-10T17:56:24.311+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584311] [levelValue: 700] [[
+  Set via default minimum: MulticastSocket.getTimeToLive()=4]]
+
+[2014-09-10T17:56:24.312+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584312] [levelValue: 700] [[
+  MulticastSocket configuration: local socket address: 0.0.0.0/0.0.0.0:21842 network interface: name:null multicast address:/228.9.162.33 timeToLive=4]]
+
+[2014-09-10T17:56:24.323+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584323] [levelValue: 700] [[
+  HealthMonitor: heartBeatTimeout(ms)=2000 maxMissedBeats=3 failureDetectionTCPTimeout(ms)=10000 failureDetectionTCPPort=9000]]
+
+[2014-09-10T17:56:24.324+0200] [glassfish 4.1] [INFO] [] [ShoalLogger] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584324] [levelValue: 800] [[
+  starting cluster c1 for member:server]]
+
+[2014-09-10T17:56:24.325+0200] [glassfish 4.1] [INFO] [mgmt.masternode.registeredlistener] [ShoalLogger] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584325] [levelValue: 800] [[
+  GMS1061: MasterNode message listener is registered for member: server group: c1]]
+
+[2014-09-10T17:56:24.327+0200] [glassfish 4.1] [INFO] [view.window.view.change] [ShoalLogger] [tid: _ThreadID=113 _ThreadName=GMS ViewWindowThread Group-c1] [timeMillis: 1410364584327] [levelValue: 800] [[
+  GMS1092: GMS View Change Received for group: c1 : Members in view for MASTER_CHANGE_EVENT(before change analysis) are :
+1: MemberId: server, MemberType: SPECTATOR, Address: 10.163.26.60:9186:228.9.162.33:21842:c1:server
+]]
+
+[2014-09-10T17:56:24.327+0200] [glassfish 4.1] [INFO] [NCLS-CLSTR-10105] [javax.enterprise.cluster.gms] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584327] [levelValue: 800] [[
+  Member server joined group c1]]
+
+[2014-09-10T17:56:24.327+0200] [glassfish 4.1] [INFO] [NCLS-CLSTR-10104] [javax.enterprise.cluster.gms] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584327] [levelValue: 800] [[
+  Started GMS for instance server in group c1]]
+
+[2014-09-10T17:56:24.327+0200] [glassfish 4.1] [INFO] [membership.snapshot.analysis] [ShoalLogger] [tid: _ThreadID=113 _ThreadName=GMS ViewWindowThread Group-c1] [timeMillis: 1410364584327] [levelValue: 800] [[
+  GMS1016: Analyzing new membership snapshot received as part of event: MASTER_CHANGE_EVENT for member: server of group: c1]]
+
+[2014-09-10T17:56:24.329+0200] [glassfish 4.1] [INFO] [gms.ready] [ShoalLogger] [tid: _ThreadID=108 _ThreadName=pool-29-thread-1] [timeMillis: 1410364584329] [levelValue: 800] [[
+  GMS1099: GMS:Reporting Joined and Ready state to group: c1]]
+
+[2014-09-10T17:56:24.329+0200] [glassfish 4.1] [INFO] [view.window.groupleader.notify] [ShoalLogger] [tid: _ThreadID=113 _ThreadName=GMS ViewWindowThread Group-c1] [timeMillis: 1410364584329] [levelValue: 800] [[
+  GMS1093: adding GroupLeadershipNotification signal leadermember: server of group: c1]]
+
+[2014-09-10T17:56:24.333+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=144 _ThreadName=GMS HealthMonitor for Group-c1] [timeMillis: 1410364584333] [levelValue: 700] [[
+  MySystemAdvertisement(summary): GMSMember name: server  group: c1 memberType: SPECTATOR startTime: 10.9.2014 17:56:24 CEST ID:10.163.26.60:9186:228.9.162.33:21842:c1:server TCP uri(s):[tcp://[2606:b400:828:4c:6d28:4883:96ec:d975]:4000, tcp://[2606:b400:828:4c:aa20:66ff:fe26:ad55]:4000, tcp://[fe80:0:0:0:aa20:66ff:fe26:ad55%4]:4000, tcp://10.163.26.60:4000, tcp://[fe80:0:0:0:0:0:0:1%1]:4000]]]
+
+[2014-09-10T17:56:24.334+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=144 _ThreadName=GMS HealthMonitor for Group-c1] [timeMillis: 1410364584334] [levelValue: 700] [[
+  MySystemAdvertisement(dump)=PEERID[10.163.26.60:9186:228.9.162.33:21842:c1:server]
+CUSTOMTAGS[GROUP_NAME:c1, MEMBER_TYPE:SPECTATOR, START_TIME[17:56:24 CEST on 10.9.2014]], ENDPONTADDRESSES[[tcp://[2606:b400:828:4c:6d28:4883:96ec:d975]:4000, tcp://[2606:b400:828:4c:aa20:66ff:fe26:ad55]:4000, tcp://[fe80:0:0:0:aa20:66ff:fe26:ad55%4]:4000, tcp://10.163.26.60:4000, tcp://[fe80:0:0:0:0:0:0:1%1]:4000]], NAME:server, OSNAME:Mac OS X, OSVERSION:10.8.5, OSARCH:x86_64, HWARCH:x86_64, HWVENDOR:Oracle Corporation]]
+
+[2014-09-10T17:56:29.332+0200] [glassfish 4.1] [INFO] [mgmt.masternode.assumingmasternode] [ShoalLogger] [tid: _ThreadID=143 _ThreadName=GMS MasterNode Group-c1] [timeMillis: 1410364589332] [levelValue: 800] [[
+  GMS1058: Assuming Master Node designation member: server for group: c1]]
+
+[2014-09-10T17:56:29.333+0200] [glassfish 4.1] [INFO] [view.window.view.change] [ShoalLogger] [tid: _ThreadID=113 _ThreadName=GMS ViewWindowThread Group-c1] [timeMillis: 1410364589333] [levelValue: 800] [[
+  GMS1092: GMS View Change Received for group: c1 : Members in view for MASTER_CHANGE_EVENT(before change analysis) are :
+1: MemberId: server, MemberType: SPECTATOR, Address: 10.163.26.60:9186:228.9.162.33:21842:c1:server
+]]
+
+[2014-09-10T17:56:29.333+0200] [glassfish 4.1] [INFO] [membership.snapshot.analysis] [ShoalLogger] [tid: _ThreadID=113 _ThreadName=GMS ViewWindowThread Group-c1] [timeMillis: 1410364589333] [levelValue: 800] [[
+  GMS1016: Analyzing new membership snapshot received as part of event: MASTER_CHANGE_EVENT for member: server of group: c1]]
+
+[2014-09-10T17:56:29.334+0200] [glassfish 4.1] [INFO] [view.window.groupleader.notify] [ShoalLogger] [tid: _ThreadID=113 _ThreadName=GMS ViewWindowThread Group-c1] [timeMillis: 1410364589334] [levelValue: 800] [[
+  GMS1093: adding GroupLeadershipNotification signal leadermember: server of group: c1]]
+
+[2014-09-10T17:56:29.334+0200] [glassfish 4.1] [INFO] [mgmt.masternode.announcemasternode] [ShoalLogger] [tid: _ThreadID=143 _ThreadName=GMS MasterNode Group-c1] [timeMillis: 1410364589334] [levelValue: 800] [[
+  GMS1057: Announcing Master Node designation for member: server of group: c1. Local view contains 1 entries]]
+
+[2014-09-10T17:56:29.340+0200] [glassfish 4.1] [INFO] [view.window.view.change] [ShoalLogger] [tid: _ThreadID=113 _ThreadName=GMS ViewWindowThread Group-c1] [timeMillis: 1410364589340] [levelValue: 800] [[
+  GMS1092: GMS View Change Received for group: c1 : Members in view for JOINED_AND_READY_EVENT(before change analysis) are :
+1: MemberId: server, MemberType: SPECTATOR, Address: 10.163.26.60:9186:228.9.162.33:21842:c1:server
+]]
+
+[2014-09-10T17:56:29.341+0200] [glassfish 4.1] [INFO] [membership.snapshot.analysis] [ShoalLogger] [tid: _ThreadID=113 _ThreadName=GMS ViewWindowThread Group-c1] [timeMillis: 1410364589341] [levelValue: 800] [[
+  GMS1016: Analyzing new membership snapshot received as part of event: JOINED_AND_READY_EVENT for member: server of group: c1]]
+
+[2014-09-10T17:56:33.281+0200] [glassfish 4.1] [INFO] [gms.join] [ShoalLogger] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593281] [levelValue: 800] [[
+  GMS1095: member: server is joining group: c2 ...]]
+
+[2014-09-10T17:56:33.283+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593283] [levelValue: 700] [[
+  instantiated following NetworkManager implementation:com.sun.enterprise.mgmt.transport.grizzly.grizzly2.GrizzlyNetworkManager2]]
+
+[2014-09-10T17:56:33.283+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593283] [levelValue: 700] [[
+  GMS MAX_MESSAGE_LENGTH=4 196 352]]
+
+[2014-09-10T17:56:33.283+0200] [glassfish 4.1] [INFO] [] [] [tid: _ThreadID=104 _ThreadName=Thread-8] [timeMillis: 1410364593283] [levelValue: 800] [[
+  Grizzly 2.0 NetworkManager]]
+
+[2014-09-10T17:56:33.284+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593284] [levelValue: 700] [[
+  
+GrizzlyNetworkManager2 Configuration
+BIND_INTERFACE_ADDRESS:null  NetworkInterfaceName:null
+TCPSTARTPORT..TCPENDPORT:9090..9200
+MULTICAST_ADDRESS:MULTICAST_PORT:228.9.58.65:26762 MULTICAST_PACKET_SIZE:65536 MULTICAST_TIME_TO_LIVE: default
+FAILURE_DETECT_TCP_RETRANSMIT_TIMEOUT(ms):10000
+ MAX_PARALLEL:15
+START_TIMEOUT(ms):15000 WRITE_TIMEOUT(ms):10000
+MAX_WRITE_SELECTOR_POOL_SIZE:30
+]]
+
+[2014-09-10T17:56:33.287+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593287] [levelValue: 700] [[
+  Grizzly controller listening on /0:0:0:0:0:0:0:0:9160. Transport started in 3 ms]]
+
+[2014-09-10T17:56:33.288+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593288] [levelValue: 700] [[
+  Set via default minimum: MulticastSocket.getTimeToLive()=4]]
+
+[2014-09-10T17:56:33.289+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593289] [levelValue: 700] [[
+  MulticastSocket configuration: local socket address: 0.0.0.0/0.0.0.0:26762 network interface: name:null multicast address:/228.9.58.65 timeToLive=4]]
+
+[2014-09-10T17:56:33.290+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593290] [levelValue: 700] [[
+  HealthMonitor: heartBeatTimeout(ms)=2000 maxMissedBeats=3 failureDetectionTCPTimeout(ms)=10000 failureDetectionTCPPort=9000]]
+
+[2014-09-10T17:56:33.290+0200] [glassfish 4.1] [INFO] [] [ShoalLogger] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593290] [levelValue: 800] [[
+  starting cluster c2 for member:server]]
+
+[2014-09-10T17:56:33.290+0200] [glassfish 4.1] [INFO] [mgmt.masternode.registeredlistener] [ShoalLogger] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593290] [levelValue: 800] [[
+  GMS1061: MasterNode message listener is registered for member: server group: c2]]
+
+[2014-09-10T17:56:33.291+0200] [glassfish 4.1] [INFO] [view.window.view.change] [ShoalLogger] [tid: _ThreadID=160 _ThreadName=GMS ViewWindowThread Group-c2] [timeMillis: 1410364593291] [levelValue: 800] [[
+  GMS1092: GMS View Change Received for group: c2 : Members in view for MASTER_CHANGE_EVENT(before change analysis) are :
+1: MemberId: server, MemberType: SPECTATOR, Address: 10.163.26.60:9160:228.9.58.65:26762:c2:server
+]]
+
+[2014-09-10T17:56:33.291+0200] [glassfish 4.1] [INFO] [NCLS-CLSTR-10105] [javax.enterprise.cluster.gms] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593291] [levelValue: 800] [[
+  Member server joined group c2]]
+
+[2014-09-10T17:56:33.292+0200] [glassfish 4.1] [INFO] [NCLS-CLSTR-10104] [javax.enterprise.cluster.gms] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593292] [levelValue: 800] [[
+  Started GMS for instance server in group c2]]
+
+[2014-09-10T17:56:33.292+0200] [glassfish 4.1] [INFO] [membership.snapshot.analysis] [ShoalLogger] [tid: _ThreadID=160 _ThreadName=GMS ViewWindowThread Group-c2] [timeMillis: 1410364593292] [levelValue: 800] [[
+  GMS1016: Analyzing new membership snapshot received as part of event: MASTER_CHANGE_EVENT for member: server of group: c2]]
+
+[2014-09-10T17:56:33.292+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=191 _ThreadName=GMS HealthMonitor for Group-c2] [timeMillis: 1410364593292] [levelValue: 700] [[
+  MySystemAdvertisement(summary): GMSMember name: server  group: c2 memberType: SPECTATOR startTime: 10.9.2014 17:56:33 CEST ID:10.163.26.60:9160:228.9.58.65:26762:c2:server TCP uri(s):[tcp://[2606:b400:828:4c:6d28:4883:96ec:d975]:4000, tcp://[2606:b400:828:4c:aa20:66ff:fe26:ad55]:4000, tcp://[fe80:0:0:0:aa20:66ff:fe26:ad55%4]:4000, tcp://10.163.26.60:4000, tcp://[fe80:0:0:0:0:0:0:1%1]:4000]]]
+
+[2014-09-10T17:56:33.293+0200] [glassfish 4.1] [INFO] [gms.ready] [ShoalLogger] [tid: _ThreadID=104 _ThreadName=pool-26-thread-1] [timeMillis: 1410364593293] [levelValue: 800] [[
+  GMS1099: GMS:Reporting Joined and Ready state to group: c2]]
+
+[2014-09-10T17:56:33.293+0200] [glassfish 4.1] [INFO] [view.window.groupleader.notify] [ShoalLogger] [tid: _ThreadID=160 _ThreadName=GMS ViewWindowThread Group-c2] [timeMillis: 1410364593293] [levelValue: 800] [[
+  GMS1093: adding GroupLeadershipNotification signal leadermember: server of group: c2]]
+
+[2014-09-10T17:56:33.294+0200] [glassfish 4.1] [CONFIG] [] [ShoalLogger] [tid: _ThreadID=191 _ThreadName=GMS HealthMonitor for Group-c2] [timeMillis: 1410364593294] [levelValue: 700] [[
+  MySystemAdvertisement(dump)=PEERID[10.163.26.60:9160:228.9.58.65:26762:c2:server]
+CUSTOMTAGS[GROUP_NAME:c2, MEMBER_TYPE:SPECTATOR, START_TIME[17:56:33 CEST on 10.9.2014]], ENDPONTADDRESSES[[tcp://[2606:b400:828:4c:6d28:4883:96ec:d975]:4000, tcp://[2606:b400:828:4c:aa20:66ff:fe26:ad55]:4000, tcp://[fe80:0:0:0:aa20:66ff:fe26:ad55%4]:4000, tcp://10.163.26.60:4000, tcp://[fe80:0:0:0:0:0:0:1%1]:4000]], NAME:server, OSNAME:Mac OS X, OSVERSION:10.8.5, OSARCH:x86_64, HWARCH:x86_64, HWVENDOR:Oracle Corporation]]
+
+[2014-09-10T17:56:38.293+0200] [glassfish 4.1] [INFO] [mgmt.masternode.assumingmasternode] [ShoalLogger] [tid: _ThreadID=190 _ThreadName=GMS MasterNode Group-c2] [timeMillis: 1410364598293] [levelValue: 800] [[
+  GMS1058: Assuming Master Node designation member: server for group: c2]]
+
+[2014-09-10T17:56:38.293+0200] [glassfish 4.1] [INFO] [view.window.view.change] [ShoalLogger] [tid: _ThreadID=160 _ThreadName=GMS ViewWindowThread Group-c2] [timeMillis: 1410364598293] [levelValue: 800] [[
+  GMS1092: GMS View Change Received for group: c2 : Members in view for MASTER_CHANGE_EVENT(before change analysis) are :
+1: MemberId: server, MemberType: SPECTATOR, Address: 10.163.26.60:9160:228.9.58.65:26762:c2:server
+]]
+
+[2014-09-10T17:56:38.293+0200] [glassfish 4.1] [INFO] [membership.snapshot.analysis] [ShoalLogger] [tid: _ThreadID=160 _ThreadName=GMS ViewWindowThread Group-c2] [timeMillis: 1410364598293] [levelValue: 800] [[
+  GMS1016: Analyzing new membership snapshot received as part of event: MASTER_CHANGE_EVENT for member: server of group: c2]]
+
+[2014-09-10T17:56:38.293+0200] [glassfish 4.1] [INFO] [mgmt.masternode.announcemasternode] [ShoalLogger] [tid: _ThreadID=190 _ThreadName=GMS MasterNode Group-c2] [timeMillis: 1410364598293] [levelValue: 800] [[
+  GMS1057: Announcing Master Node designation for member: server of group: c2. Local view contains 1 entries]]
+
+[2014-09-10T17:56:38.294+0200] [glassfish 4.1] [INFO] [view.window.groupleader.notify] [ShoalLogger] [tid: _ThreadID=160 _ThreadName=GMS ViewWindowThread Group-c2] [timeMillis: 1410364598294] [levelValue: 800] [[
+  GMS1093: adding GroupLeadershipNotification signal leadermember: server of group: c2]]
+
+[2014-09-10T17:56:38.296+0200] [glassfish 4.1] [INFO] [view.window.view.change] [ShoalLogger] [tid: _ThreadID=160 _ThreadName=GMS ViewWindowThread Group-c2] [timeMillis: 1410364598296] [levelValue: 800] [[
+  GMS1092: GMS View Change Received for group: c2 : Members in view for JOINED_AND_READY_EVENT(before change analysis) are :
+1: MemberId: server, MemberType: SPECTATOR, Address: 10.163.26.60:9160:228.9.58.65:26762:c2:server
+]]
+
+[2014-09-10T17:56:38.296+0200] [glassfish 4.1] [INFO] [membership.snapshot.analysis] [ShoalLogger] [tid: _ThreadID=160 _ThreadName=GMS ViewWindowThread Group-c2] [timeMillis: 1410364598296] [levelValue: 800] [[
+  GMS1016: Analyzing new membership snapshot received as part of event: JOINED_AND_READY_EVENT for member: server of group: c2]]
+
+[2014-09-10T17:56:49.478+0200] [glassfish 4.1] [INFO] [NCLS-CLSTR-20001] [javax.enterprise.cluster.gms.bootstrap] [tid: _ThreadID=206 _ThreadName=pool-31-thread-1] [timeMillis: 1410364609478] [levelValue: 800] [[
+  Adding instance l1 to health history table.]]
+
+[2014-09-10T17:56:53.632+0200] [glassfish 4.1] [INFO] [NCLS-CLSTR-20001] [javax.enterprise.cluster.gms.bootstrap] [tid: _ThreadID=210 _ThreadName=pool-33-thread-1] [timeMillis: 1410364613632] [levelValue: 800] [[
+  Adding instance l2 to health history table.]]
+
+[2014-09-10T17:57:00.307+0200] [glassfish 4.1] [INFO] [NCLS-CLSTR-20001] [javax.enterprise.cluster.gms.bootstrap] [tid: _ThreadID=206 _ThreadName=pool-31-thread-1] [timeMillis: 1410364620307] [levelValue: 800] [[
+  Adding instance l3 to health history table.]]
+
+[2014-09-10T17:57:19.267+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639267] [levelValue: 800] [[
+  PostUndeployCommand starting]]
+
+[2014-09-10T17:57:19.268+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639268] [levelValue: 800] [[
+  PostUndeployCommand done successfully]]
+
+[2014-09-10T17:57:19.292+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639292] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2014-09-10T17:57:19.306+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639306] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2014-09-10T17:57:19.313+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639313] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2014-09-10T17:57:19.398+0200] [glassfish 4.1] [FINEST] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639398] [levelValue: 300] [CLASSNAME: name.marmar.javaone.LogOnStartupListener] [METHODNAME: contextInitialized] [[
+  Starting (finest)]]
+
+[2014-09-10T17:57:19.398+0200] [glassfish 4.1] [FINER] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639398] [levelValue: 400] [CLASSNAME: name.marmar.javaone.LogOnStartupListener] [METHODNAME: contextInitialized] [[
+  Starting (finer)]]
+
+[2014-09-10T17:57:19.398+0200] [glassfish 4.1] [FINE] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639398] [levelValue: 500] [CLASSNAME: name.marmar.javaone.LogOnStartupListener] [METHODNAME: contextInitialized] [[
+  Starting (fine)]]
+
+[2014-09-10T17:57:19.399+0200] [glassfish 4.1] [CONFIG] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639399] [levelValue: 700] [[
+  Starting (config)]]
+
+[2014-09-10T17:57:19.399+0200] [glassfish 4.1] [INFO] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639399] [levelValue: 800] [[
+  Starting (info)]]
+
+[2014-09-10T17:57:19.399+0200] [glassfish 4.1] [WARNING] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639399] [levelValue: 900] [[
+  Starting (warning)]]
+
+[2014-09-10T17:57:19.399+0200] [glassfish 4.1] [SEVERE] [] [name.marmar.javaone.LogOnStartupListener] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639399] [levelValue: 1000] [[
+  Starting (severe)]]
+
+[2014-09-10T17:57:19.400+0200] [glassfish 4.1] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1410364639400] [levelValue: 800] [[
+  Starting (stdout)]]
+
+[2014-09-10T17:57:19.409+0200] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639409] [levelValue: 800] [[
+  Loading application [log] at [/log-web-1.0-SNAPSHOT]]]
+
+[2014-09-10T17:57:19.447+0200] [glassfish 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1410364639447] [levelValue: 800] [[
+  log was successfully deployed in 280 milliseconds.]]
+
+[2014-09-10T17:57:53.478+0200] [glassfish 4.1] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673478] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2014-09-10T17:57:53.480+0200] [glassfish 4.1] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673480] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@520ebd99 from service registry.]]
+
+[2014-09-10T17:57:53.481+0200] [glassfish 4.1] [INFO] [] [] [tid: _ThreadID=226 _ThreadName=Thread-8] [timeMillis: 1410364673481] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2014-09-10T17:57:53.484+0200] [glassfish 4.1] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673484] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2014-09-10T17:57:53.484+0200] [glassfish 4.1] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673484] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2014-09-10T17:57:53.555+0200] [glassfish 4.1] [INFO] [] [] [tid: _ThreadID=233 _ThreadName=Thread-8] [timeMillis: 1410364673555] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool]]]
+
+[2014-09-10T17:57:53.568+0200] [glassfish 4.1] [INFO] [NCLS-CLSTR-10108] [javax.enterprise.cluster.gms] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673568] [levelValue: 800] [[
+  GMSAdapter for member: server group: c1 received GlassfishEventType: server_shutdown]]
+
+[2014-09-10T17:57:53.568+0200] [glassfish 4.1] [INFO] [gms.leave] [ShoalLogger] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673568] [levelValue: 800] [[
+  GMS1096: member: server is leaving group: c1]]
+
+[2014-09-10T17:57:53.568+0200] [glassfish 4.1] [INFO] [shutdown.instanceshutdown] [ShoalLogger] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673568] [levelValue: 800] [[
+  GMS1010: Leaving GMS group: c1 with shutdown type set to InstanceShutdown]]
+
+[2014-09-10T17:57:53.570+0200] [glassfish 4.1] [CONFIG] [mgmt.masternode.processmsgcompleted] [ShoalLogger] [tid: _ThreadID=142 _ThreadName=GMS MasterNode processOutstandingChangeEvents Group-c1] [timeMillis: 1410364673570] [levelValue: 700] [[
+  GMS1065: Completed processing outstanding master node messages for member: server group: c1 outstandingMessages to process: 0]]
+
+[2014-09-10T17:57:53.571+0200] [glassfish 4.1] [INFO] [mgmt.blockingiomulticast.threadcomplete] [ShoalLogger] [tid: _ThreadID=140 _ThreadName=IP Multicast Listener for /228.9.162.33:21842] [timeMillis: 1410364673571] [levelValue: 800] [[
+  GMS1110: Thread IP Multicast Listener for /228.9.162.33:21842 has completed.]]
+
+[2014-09-10T17:57:53.571+0200] [glassfish 4.1] [INFO] [] [ShoalLogger.monitor] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673571] [levelValue: 800] [[
+  BlockingIOMulicastSender monitoring stats: received: 51 core poolsize:10 largest pool size:10 task count:51 max queue size:0 rejected execution:0]]
+
+[2014-09-10T17:57:53.573+0200] [glassfish 4.1] [INFO] [view.window.thread.terminated] [ShoalLogger] [tid: _ThreadID=113 _ThreadName=GMS ViewWindowThread Group-c1] [timeMillis: 1410364673573] [levelValue: 800] [[
+  GMS1091: View Window event processing thread for group: c1 terminated normally]]
+
+[2014-09-10T17:57:53.574+0200] [glassfish 4.1] [INFO] [sig.handler.thread.terminated] [ShoalLogger] [tid: _ThreadID=112 _ThreadName=GMS SignalHandler for Group-c1 thread] [timeMillis: 1410364673574] [levelValue: 800] [[
+  GMS1107: SignalHandler task named GMS SignalHandler for Group-c1 thread exiting]]
+
+[2014-09-10T17:57:53.574+0200] [glassfish 4.1] [INFO] [router.stats.monitor.msgqueue.high.water] [ShoalLogger.monitor] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673574] [levelValue: 800] [[
+  GMS1115: router signal queue high water mark: 0 signal queue capacity: 600]]
+
+[2014-09-10T17:57:53.574+0200] [glassfish 4.1] [INFO] [msg.wdw.thread.terminated] [ShoalLogger] [tid: _ThreadID=114 _ThreadName=GMS MessageWindowThread Group-c1] [timeMillis: 1410364673574] [levelValue: 800] [[
+  GMS1088: MessageWindow thread for group: c1 terminated due to shutdown notification]]
+
+[2014-09-10T17:57:53.575+0200] [glassfish 4.1] [INFO] [NCLS-CLSTR-10108] [javax.enterprise.cluster.gms] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673575] [levelValue: 800] [[
+  GMSAdapter for member: server group: c2 received GlassfishEventType: server_shutdown]]
+
+[2014-09-10T17:57:53.575+0200] [glassfish 4.1] [INFO] [gms.leave] [ShoalLogger] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673575] [levelValue: 800] [[
+  GMS1096: member: server is leaving group: c2]]
+
+[2014-09-10T17:57:53.575+0200] [glassfish 4.1] [INFO] [shutdown.instanceshutdown] [ShoalLogger] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673575] [levelValue: 800] [[
+  GMS1010: Leaving GMS group: c2 with shutdown type set to InstanceShutdown]]
+
+[2014-09-10T17:57:53.577+0200] [glassfish 4.1] [CONFIG] [mgmt.masternode.processmsgcompleted] [ShoalLogger] [tid: _ThreadID=189 _ThreadName=GMS MasterNode processOutstandingChangeEvents Group-c2] [timeMillis: 1410364673577] [levelValue: 700] [[
+  GMS1065: Completed processing outstanding master node messages for member: server group: c2 outstandingMessages to process: 0]]
+
+[2014-09-10T17:57:53.577+0200] [glassfish 4.1] [INFO] [mgmt.blockingiomulticast.threadcomplete] [ShoalLogger] [tid: _ThreadID=187 _ThreadName=IP Multicast Listener for /228.9.58.65:26762] [timeMillis: 1410364673577] [levelValue: 800] [[
+  GMS1110: Thread IP Multicast Listener for /228.9.58.65:26762 has completed.]]
+
+[2014-09-10T17:57:53.577+0200] [glassfish 4.1] [INFO] [] [ShoalLogger.monitor] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673577] [levelValue: 800] [[
+  BlockingIOMulicastSender monitoring stats: received: 45 core poolsize:10 largest pool size:10 task count:47 max queue size:0 rejected execution:0]]
+
+[2014-09-10T17:57:53.579+0200] [glassfish 4.1] [INFO] [router.stats.monitor.msgqueue.high.water] [ShoalLogger.monitor] [tid: _ThreadID=226 _ThreadName=Thread-64] [timeMillis: 1410364673579] [levelValue: 800] [[
+  GMS1115: router signal queue high water mark: 0 signal queue capacity: 600]]
+
+[2014-09-10T17:57:53.580+0200] [glassfish 4.1] [INFO] [sig.handler.thread.terminated] [ShoalLogger] [tid: _ThreadID=159 _ThreadName=GMS SignalHandler for Group-c2 thread] [timeMillis: 1410364673580] [levelValue: 800] [[
+  GMS1107: SignalHandler task named GMS SignalHandler for Group-c2 thread exiting]]
+
+[2014-09-10T17:57:53.579+0200] [glassfish 4.1] [INFO] [view.window.thread.terminated] [ShoalLogger] [tid: _ThreadID=160 _ThreadName=GMS ViewWindowThread Group-c2] [timeMillis: 1410364673579] [levelValue: 800] [[
+  GMS1091: View Window event processing thread for group: c2 terminated normally]]
+
+[2014-09-10T17:57:53.579+0200] [glassfish 4.1] [INFO] [msg.wdw.thread.terminated] [ShoalLogger] [tid: _ThreadID=161 _ThreadName=GMS MessageWindowThread Group-c2] [timeMillis: 1410364673579] [levelValue: 800] [[
+  GMS1088: MessageWindow thread for group: c2 terminated due to shutdown notification]]
+
